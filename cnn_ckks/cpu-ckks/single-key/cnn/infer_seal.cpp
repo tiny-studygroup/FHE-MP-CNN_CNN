@@ -299,8 +299,8 @@ void ResNet_cifar10_seal_sparse(size_t layer_num, size_t start_image_id, size_t 
 	int logq = 51;
 	int log_special_prime = 51;
     int log_integer_part = logq - logp - loge + 5;
-	int remaining_level = 16; // Calculation required
-	int boot_level = 14; // 
+	int remaining_level = 16; // Calculation required 13
+	int boot_level = 14; // 5 2.5 = 6+9 17
 	int total_level = remaining_level + boot_level;
 
 	vector<int> coeff_bit_vec;
